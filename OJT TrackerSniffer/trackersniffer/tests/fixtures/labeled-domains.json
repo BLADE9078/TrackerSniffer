@@ -1,0 +1,530 @@
+[
+ {
+  "url": "https://securepubads.g.doubleclick.net/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://pagead2.googlesyndication.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://c.amazon-adsystem.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://ib.adnxs.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://cdn.taboola.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://widgets.outbrain.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://static.criteo.net/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://bat.bing.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://analytics.tiktok.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://tr.snapchat.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://tags.crwdcntrl.net/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://cdn.izooto.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://www.google-analytics.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://sb.scorecardresearch.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://static.hotjar.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://www.clarity.ms/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://api.mixpanel.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://js-agent.newrelic.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://static.cloudflareinsights.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://clevertap-prod.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://connect.facebook.net/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "social",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://www.facebook.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "social",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://platform.twitter.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "social",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://px.ads.linkedin.com/x.js",
+  "kind": "known-tracker",
+  "expected_match": true,
+  "expected_category": "social",
+  "truth": "tracker",
+  "note": ""
+ },
+ {
+  "url": "https://www.googletagmanager.com/gtm.js",
+  "kind": "tracker-not-in-list",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "tracker",
+  "note": "Tag manager; not a hostname entry in this Disconnect version"
+ },
+ {
+  "url": "https://wzrkt.com/a",
+  "kind": "tracker-not-in-list",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "tracker",
+  "note": "CleverTap endpoint not in list"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/x",
+  "kind": "listed-content",
+  "expected_match": true,
+  "expected_category": "content",
+  "truth": "not-tracker",
+  "note": "CDN / embed listed under Disconnect \"Content\""
+ },
+ {
+  "url": "https://fonts.gstatic.com/x",
+  "kind": "listed-content",
+  "expected_match": true,
+  "expected_category": "content",
+  "truth": "not-tracker",
+  "note": "CDN / embed listed under Disconnect \"Content\""
+ },
+ {
+  "url": "https://fonts.googleapis.com/x",
+  "kind": "listed-content",
+  "expected_match": true,
+  "expected_category": "content",
+  "truth": "not-tracker",
+  "note": "CDN / embed listed under Disconnect \"Content\""
+ },
+ {
+  "url": "https://www.youtube.com/x",
+  "kind": "listed-content",
+  "expected_match": true,
+  "expected_category": "content",
+  "truth": "not-tracker",
+  "note": "CDN / embed listed under Disconnect \"Content\""
+ },
+ {
+  "url": "https://player.vimeo.com/x",
+  "kind": "listed-content",
+  "expected_match": true,
+  "expected_category": "content",
+  "truth": "not-tracker",
+  "note": "CDN / embed listed under Disconnect \"Content\""
+ },
+ {
+  "url": "https://js.stripe.com/x",
+  "kind": "listed-content",
+  "expected_match": true,
+  "expected_category": "content",
+  "truth": "not-tracker",
+  "note": "CDN / embed listed under Disconnect \"Content\""
+ },
+ {
+  "url": "https://cdnjs.cloudflare.com/x",
+  "kind": "listed-content",
+  "expected_match": true,
+  "expected_category": "content",
+  "truth": "not-tracker",
+  "note": "CDN / embed listed under Disconnect \"Content\""
+ },
+ {
+  "url": "https://checkout.razorpay.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "payment"
+ },
+ {
+  "url": "https://code.jquery.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "CDN"
+ },
+ {
+  "url": "https://fonts.bunny.net/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "fonts"
+ },
+ {
+  "url": "https://api.github.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "API"
+ },
+ {
+  "url": "https://images.unsplash.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "images"
+ },
+ {
+  "url": "https://login.microsoftonline.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "auth"
+ },
+ {
+  "url": "https://appleid.apple.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "auth"
+ },
+ {
+  "url": "https://cdn.auth0.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "auth"
+ },
+ {
+  "url": "https://rukminim1.flixcart.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "e-commerce CDN"
+ },
+ {
+  "url": "https://assets.ajio.com/x",
+  "kind": "ordinary-third-party",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "e-commerce CDN"
+ },
+ {
+  "url": "https://notdoubleclick.net/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://mydoubleclick.net/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://doubleclick.network/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://doubleclick.net.evil.com/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://google-analytics.co/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://facebook.net.in/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://fakehotjar.com/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://hotjar.com.attacker.io/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://scorecardresearch.co/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://taboola.com-cdn.net/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://adnxs.co/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "https://googlesyndication.com.cn/x",
+  "kind": "lookalike",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "not-tracker",
+  "note": "similar-looking but unrelated domain"
+ },
+ {
+  "url": "HTTPS://SecurePubAds.G.DoubleClick.NET/tag.js?X=1",
+  "kind": "normalization",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": "uppercase + query string"
+ },
+ {
+  "url": "http://doubleclick.net./pixel",
+  "kind": "normalization",
+  "expected_match": true,
+  "expected_category": "advertising",
+  "truth": "tracker",
+  "note": "trailing dot"
+ },
+ {
+  "url": "wss://ws.hotjar.com/socket",
+  "kind": "normalization",
+  "expected_match": true,
+  "expected_category": "analytics",
+  "truth": "tracker",
+  "note": "websocket scheme"
+ },
+ {
+  "url": "",
+  "kind": "malformed",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "invalid",
+  "note": "empty"
+ },
+ {
+  "url": "not a url",
+  "kind": "malformed",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "invalid",
+  "note": "no scheme"
+ },
+ {
+  "url": "http://",
+  "kind": "malformed",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "invalid",
+  "note": "no host"
+ },
+ {
+  "url": "ftp://doubleclick.net/file",
+  "kind": "malformed",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "invalid",
+  "note": "unsupported scheme"
+ },
+ {
+  "url": "javascript:alert(1)",
+  "kind": "malformed",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "invalid",
+  "note": "javascript URL"
+ },
+ {
+  "url": "data:image/gif;base64,R0lGOD",
+  "kind": "malformed",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "invalid",
+  "note": "data URL"
+ },
+ {
+  "url": "http://exa mple.com/",
+  "kind": "malformed",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "invalid",
+  "note": "space in host"
+ },
+ {
+  "url": "chrome-extension://abc/page.html",
+  "kind": "malformed",
+  "expected_match": false,
+  "expected_category": "unknown",
+  "truth": "invalid",
+  "note": "extension URL"
+ }
+]

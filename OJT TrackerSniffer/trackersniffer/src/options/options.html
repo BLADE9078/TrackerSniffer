@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TrackerSniffer settings</title>
+  <link rel="stylesheet" href="../popup/popup.css">
+  <link rel="stylesheet" href="options.css">
+  <script type="module" src="options.js"></script>
+</head>
+<body class="options">
+  <header class="top">
+    <img src="../../icons/icon32.png" alt="" width="20" height="20">
+    <div class="top-text"><strong>TrackerSniffer settings</strong><span class="muted">Everything here is stored locally in this browser.</span></div>
+  </header>
+  <main>
+    <section class="card">
+      <h2>Grade thresholds</h2>
+      <p class="muted">Minimum score for each grade. Defaults follow the PRD (A ≥ 90, B ≥ 80, C ≥ 65, D ≥ 50, F ≥ 0).</p>
+      <div id="thresholds" class="thresholds"></div>
+      <label class="row">Observation window for “Rescan” (seconds)
+        <input id="observation" type="number" min="3" max="60" step="1">
+      </label>
+      <div class="row">
+        <button id="save-settings" class="btn primary">Save</button>
+        <button id="reset-settings" class="btn">Restore defaults</button>
+        <span id="settings-msg" class="muted"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Tracker list</h2>
+      <p id="list-info"></p>
+      <p class="muted">To update, rebuild <code>data/trackers.json</code> with <code>npm run fetch-list &amp;&amp; npm run build-catalog</code> and upload it here (or reload the extension). The file must contain <code>{"meta": {...}, "trackers": {"domain": {"category": "...", "owner": "..."}}}</code>.</p>
+      <div class="row">
+        <input id="list-file" type="file" accept="application/json,.json">
+        <button id="list-reset" class="btn">Use bundled list</button>
+        <span id="list-msg" class="muted"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Audit history <span id="history-count" class="muted"></span></h2>
+      <p class="muted">Compare websites you have audited. Only summary numbers and tracker domain names are kept — no page URLs beyond the site name, no cookie data.</p>
+      <div class="row">
+        <button id="history-export" class="btn">Export history (.csv)</button>
+        <button id="history-clear" class="btn">Clear history</button>
+      </div>
+      <div class="table-wrap"><table id="history" class="history"></table></div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "trackersniffer",
+  "version": "1.0.0",
+  "description": "TrackerSniffer — Third-Party Ad & Cookie Audit Extension (Chrome MV3)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch-list": "node scripts/fetch-tracker-list.mjs",
+    "build-catalog": "node scripts/build-tracker-catalog.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "evaluate": "node scripts/evaluate.mjs",
+    "e2e": "node scripts/e2e-test.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "chart.js": "4.6.1",
+    "playwright-core": "^1.65.1",
+    "tldts": "7.5.5"
+  }
+}

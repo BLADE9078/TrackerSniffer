@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "Disconnect tracking-protection list (services.json)",
+    "source_url": "https://raw.githubusercontent.com/disconnectme/disconnect-tracking-protection/master/services.json",
+    "source_commit": "7a9e2be53189b8273f6929977ec92e0f5ae993b6",
+    "retrieved_at": "2026-11-22T12:07:00.000Z",
+    "license": "CC BY-NC-SA 4.0 (Disconnect, Inc.)",
+    "built_at": "2026-11-22T12:09:23.407Z",
+    "domain_count": 4472,
+    "primary_category_counts": {
+      "advertising": 2740,
+      "email": 453,
+      "analytics": 520,
+      "fingerprinting": 239,
+      "content": 394,
+      "social": 50,
+      "cryptomining": 33,
+      "anti-fraud": 29,
+      "consent": 14
+    },
+    "version": "disconnect@7a9e2be"
+  },
+  "cleaning": {
+    "raw_domain_entries": 4821,
+    "path_entries_dropped": 7,
+    "invalid_entries_dropped": 0,
+    "entries_normalized": 0,
+    "duplicate_entries_merged": 342,
+    "multi_category_domains_reconciled": 335,
+    "owner_conflicts": 0,
+    "unmapped_categories": [],
+    "examples": {
+      "path_entries": [
+        "google.com/pagead/1p-user-list",
+        "yandex.ru/ads/",
+        "yandex.ru/clck/click",
+        "yandex.ru/clck/counter",
+        "yandex.ru/cycounter"
+      ],
+      "invalid": [],
+      "normalized": []
+    }
+  }
+}

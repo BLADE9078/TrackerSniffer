@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-11-22T12:30:04.274Z",
+  "node": "v22.23.5",
+  "tracker_list": "disconnect@7a9e2be",
+  "tracker_list_domains": 4472,
+  "labeled_cases": 66,
+  "spec_accuracy_pct": 100,
+  "by_kind": {
+    "known-tracker": {
+      "total": 24,
+      "correct": 24
+    },
+    "tracker-not-in-list": {
+      "total": 2,
+      "correct": 2
+    },
+    "listed-content": {
+      "total": 7,
+      "correct": 7
+    },
+    "ordinary-third-party": {
+      "total": 10,
+      "correct": 10
+    },
+    "lookalike": {
+      "total": 12,
+      "correct": 12
+    },
+    "normalization": {
+      "total": 3,
+      "correct": 3
+    },
+    "malformed": {
+      "total": 8,
+      "correct": 8
+    }
+  },
+  "failures": [],
+  "lookalike_false_positives": 0,
+  "real_world": {
+    "tp": 27,
+    "fp": 7,
+    "fn": 2,
+    "tn": 22,
+    "precision_pct": 79.4,
+    "recall_pct": 93.1,
+    "fp_excluding_listed_content": 0,
+    "false_negatives": [
+      "https://www.googletagmanager.com/gtm.js",
+      "https://wzrkt.com/a"
+    ],
+    "false_positives": [
+      "https://cdn.jsdelivr.net/x",
+      "https://fonts.gstatic.com/x",
+      "https://fonts.googleapis.com/x",
+      "https://www.youtube.com/x",
+      "https://player.vimeo.com/x",
+      "https://js.stripe.com/x",
+      "https://cdnjs.cloudflare.com/x"
+    ]
+  },
+  "performance": {
+    "lookups": 10000,
+    "lookup_median_ms": 6.27,
+    "per_lookup_us": 0.63,
+    "audit_300_hosts_median_ms": 2.04
+  },
+  "targets": {
+    "spec_accuracy": 100,
+    "lookalike_false_positives": 0,
+    "lookup_10k_ms": 100,
+    "audit_300_hosts_ms": 20
+  },
+  "targets_met": {
+    "spec_accuracy": true,
+    "lookalike_false_positives": true,
+    "lookup_10k_ms": true,
+    "audit_300_hosts_ms": true
+  }
+}

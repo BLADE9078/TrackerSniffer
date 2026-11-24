@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TrackerSniffer</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="../../vendor/chart.umd.min.js"></script>
+  <script type="module" src="popup.js"></script>
+</head>
+<body>
+  <header class="top">
+    <img src="../../icons/icon32.png" alt="" width="20" height="20">
+    <div class="top-text">
+      <strong>TrackerSniffer</strong>
+      <span id="site" class="muted"></span>
+    </div>
+    <span id="status-chip" class="chip" hidden></span>
+  </header>
+
+  <!-- loading -->
+  <section id="view-loading" class="state">
+    <div class="spinner" aria-hidden="true"></div>
+    <p id="loading-text">Auditing this page…</p>
+  </section>
+
+  <!-- unsupported / no data / failed -->
+  <section id="view-message" class="state" hidden>
+    <div id="message-icon" class="state-icon" aria-hidden="true">i</div>
+    <h2 id="message-title"></h2>
+    <p id="message-text"></p>
+    <button id="message-rescan" class="btn primary" hidden>Rescan this page</button>
+  </section>
+
+  <!-- results -->
+  <main id="view-result" hidden>
+    <section class="grade-row">
+      <div id="grade-badge" class="grade" role="img"></div>
+      <div class="grade-text">
+        <div><span id="score" class="score"></span><span class="muted"> / 100</span></div>
+        <div id="grade-label" class="grade-label"></div>
+        <button id="why-toggle" class="link" aria-expanded="false">How is this calculated?</button>
+      </div>
+    </section>
+    <section id="why" class="why" hidden></section>
+
+    <div id="messages"></div>
+    <div id="comparison" class="callout" hidden></div>
+
+    <section class="stats">
+      <div class="stat"><span id="stat-third" class="num"></span><span class="lbl">Third-party domains</span></div>
+      <div class="stat"><span id="stat-trackers" class="num"></span><span class="lbl">Known trackers</span></div>
+      <div class="stat"><span id="stat-density" class="num"></span><span class="lbl">Tracker density</span></div>
+      <div class="stat"><span id="stat-cookies" class="num"></span><span class="lbl">Cookies (1st / 3rd)</span></div>
+    </section>
+
+    <section class="chart-card">
+      <h3>Recognized trackers by category</h3>
+      <div class="chart-wrap">
+        <div class="donut"><canvas id="donut" width="130" height="130" aria-label="Tracker categories donut chart" role="img"></canvas></div>
+        <ul id="legend" class="legend"></ul>
+      </div>
+      <p id="no-trackers" class="muted small" hidden>No observed domain matched the tracker list, so there is nothing to chart.</p>
+    </section>
+
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="trackers" aria-selected="true">Trackers <span id="count-trackers"></span></button>
+      <button role="tab" data-tab="unknown" aria-selected="false">Unknown <span id="count-unknown"></span></button>
+      <button role="tab" data-tab="first" aria-selected="false">First-party <span id="count-first"></span></button>
+      <button role="tab" data-tab="cookies" aria-selected="false">Cookies <span id="count-cookies"></span></button>
+    </nav>
+    <section id="tab-trackers" class="tab-panel"></section>
+    <section id="tab-unknown" class="tab-panel" hidden></section>
+    <section id="tab-first" class="tab-panel" hidden></section>
+    <section id="tab-cookies" class="tab-panel" hidden></section>
+
+    <footer class="meta">
+      <div id="meta-line" class="muted small"></div>
+      <div class="actions">
+        <button id="rescan" class="btn">Rescan</button>
+        <div class="export">
+          <button id="export-toggle" class="btn" aria-expanded="false">Export ▾</button>
+          <div id="export-menu" class="menu" hidden>
+            <button data-export="report">Privacy report (.md)</button>
+            <button data-export="audit">Audit summary (.csv)</button>
+            <button data-export="domains">Domains (.csv)</button>
+            <button data-export="cookies">Cookie metadata (.csv)</button>
+          </div>
+        </div>
+        <button id="settings" class="btn ghost">Settings</button>
+      </div>
+      <p class="disclaimer">Results reflect activity observed during the audit window, not necessarily all tracking by this site. The grade is a project heuristic, not a privacy certification. Cookie values are never read.</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Disconnect tracking-protection list (services.json)",
+  "url": "https://raw.githubusercontent.com/disconnectme/disconnect-tracking-protection/master/services.json",
+  "repository": "https://github.com/disconnectme/disconnect-tracking-protection",
+  "commit": "7a9e2be53189b8273f6929977ec92e0f5ae993b6",
+  "retrieved_at": "2026-11-22T12:07:00.000Z",
+  "license": "CC BY-NC-SA 4.0 (Disconnect, Inc.)",
+  "bytes": 378842
+}
